@@ -524,7 +524,17 @@ footer p {
         display: block;
     }
 
-    
+    .product-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info-container {
+        width: 100%;
+        max-width: none;
+        margin-bottom: 20px;
+    }
     
 
 
