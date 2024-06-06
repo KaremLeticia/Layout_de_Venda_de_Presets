@@ -1,0 +1,419 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    -webkit-user-select: none; /* Chrome, Safari, Opera */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none; /* Standard */
+}
+
+header {
+    width: 100%;
+    background-color: #222;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 38px;
+    color: #fff;
+}
+
+main {
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+    text-align: center;
+}
+
+main p {
+    margin: 15px 0; /* Alterado para 15px para dar mais espaçamento */
+    font-size: 17px;
+    line-height: 1.5; /* Espaçamento entre linhas de 1.5 vezes o tamanho da fonte */
+    color: #ccc;
+    text-align: center; /* Alinhamento justificado */
+    margin-top: 4px;
+}
+
+.container {
+    position: relative;
+    width: 736px; /* Ajuste conforme necessário */
+    height: 920px; /* Ajuste conforme necessário */
+    overflow: hidden;
+    margin: 20px auto;
+}
+
+.img-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.after {
+    clip-path: inset(0 50% 0 0);
+}
+
+.slider-bar {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 2px; /* Largura da barra de deslize */
+    height: 100%;
+    background: #fff;
+    cursor: ew-resize;
+    z-index: 10; /* Garante que a barra fique acima das imagens */
+}
+
+.handle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50px; /* Tamanho do círculo */
+    height: 50px; /* Tamanho do círculo */
+    background: #fdfcfc;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.text-below {
+    margin: 20px 0;
+}
+
+.text-below p {
+    font-size: 16px;
+}
+
+
+.container1 {
+    position: relative;
+    width: 500px; /* Ajuste o tamanho do container conforme desejado */
+    height: 720px; /* Ajuste o tamanho do container conforme desejado */
+    overflow: hidden;
+    margin: 20px auto;
+}
+
+.img-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.after {
+    clip-path: inset(0 50% 0 0);
+}
+
+.slider-bar {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 2px; /* Largura da barra de deslize */
+    height: 100%;
+    background: #fff;
+    cursor: ew-resize;
+    z-index: 10; /* Garante que a barra fique acima das imagens */
+}
+
+.handle1 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    width: 30px; /* Tamanho do círculo */
+    height: 30px; /* Tamanho do círculo */
+    background: #fdfcfc;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.container2 {
+    position: relative;
+    width: 500px; /* Ajuste o tamanho do container conforme desejado */
+    height: 720px; /* Ajuste o tamanho do container conforme desejado */
+    overflow: hidden;
+    margin: 20px auto;
+}
+
+.img-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.after {
+    clip-path: inset(0 50% 0 0);
+}
+
+.slider-bar {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 2px; /* Largura da barra de deslize */
+    height: 100%;
+    background: #fff;
+    cursor: ew-resize;
+    z-index: 10; /* Garante que a barra fique acima das imagens */
+}
+
+.handle2 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    width: 30px; /* Tamanho do círculo */
+    height: 30px; /* Tamanho do círculo */
+    background: #fdfcfc;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.container3 {
+    position: relative;
+    width: 500px; /* Ajuste o tamanho do container conforme desejado */
+    height: 720px; /* Ajuste o tamanho do container conforme desejado */
+    overflow: hidden;
+    margin: 20px auto;
+}
+
+.img-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.after {
+    clip-path: inset(0 50% 0 0);
+}
+
+.slider-bar {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 2px; /* Largura da barra de deslize */
+    height: 100%;
+    background: #fff;
+    cursor: ew-resize;
+    z-index: 10; /* Garante que a barra fique acima das imagens */
+}
+
+
+.handle3 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    width: 30px; /* Tamanho do círculo */
+    height: 30px; /* Tamanho do círculo */
+    background: #fdfcfc;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.icone-proporcional {
+    width: 24px; /* ajuste o tamanho conforme necessário */
+    height: auto; /* Isso mantém a proporção do ícone */
+    margin-right: 10px; /* Adiciona um espaço à direita do ícone */
+}
+
+.icone-proporcional2 {
+    width: 30px; /* ajuste o tamanho conforme necessário */
+    height: auto; /* Isso mantém a proporção do ícone */
+    margin-right: 10px; /* Adiciona um espaço à direita do ícone */
+}
+
+.text-below {
+    margin: 20px 0;
+}
+
+.text-below p {
+    font-size: 16px;
+}
+
+
+button {
+    background-color: #f118a8;
+    color: #fff;
+    border: none;
+    padding: 20px 4cm;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 38px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #eec223;
+}
+
+/* Adicione essas linhas ao seu arquivo styles.css */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+#pulsating-btn {
+    animation: pulse 0.5s infinite alternate; /* Pulsação contínua */
+}
+
+.product-info {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os contêineres quebrem linha se necessário */
+    justify-content: space-between;
+    gap: 20px; /* Adiciona espaço entre os contêineres */
+    margin: 35px 0;
+    margin-right: 45px;
+    margin-left: -60px;
+    width: 950px;
+
+}
+
+.info-container {
+    flex:1; /* Faz com que cada contêiner ocupe a mesma quantidade de espaço disponível */
+    width: 200px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #141313;
+    margin: 0 10px; /* Adiciona espaço horizontal entre os contêineres */
+    text-align: center;
+    border: 8px solid #f118a8; /* Adiciona a borda */
+    max-width: calc(33.333% - 40px); /* Define a largura máxima para evitar esticar demais */
+}
+
+.info-container h2 {
+    margin-bottom: 10px;
+}
+
+.info-container p {
+    margin: 0;
+}
+
+.icone-proporcional, .icone-proporcional2 {
+    width: 24px; /* ajuste o tamanho conforme necessário */
+    height: auto; /* Isso mantém a proporção do ícone */
+    margin-right: 10px; /* Adiciona um espaço à direita do ícone */
+    margin-top: 2.5px;
+}
+
+footer {
+    width: 100%;
+    background-color: #222;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.img, .slider-bar, .handle {
+    outline: none;
+    -webkit-tap-highlight-color: transparent; /* Remove destaque azul em dispositivos móveis */
+}
+
+/* Media Queries */
+@media (max-width: 800px) {
+    main {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 24px;
+    }
+
+    .container, .container1, .container2, .container3 {
+        height: auto;
+    }
+
+    .handle, .handle1, .handle2, .handle3 {
+        width: 30px;
+        height: 30px;
+    }
+
+    button {
+        padding: 10px 2cm;
+        font-size: 14px;
+    }
+
+    .product-info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info-container {
+        width: 100%;
+        max-width: none;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+    header h1 {
+        font-size: 18px;
+    }
+
+    button {
+        padding: 8px 1.5cm;
+        font-size: 12px;
+    }
+
+    .product-info {
+        padding: 0 10px;
+    }
+}
