@@ -42,7 +42,7 @@ main p {
     margin-top: 4px;
 }
 
-.container {
+.container0 {
     position: relative;
     width: 736px; /* Ajuste conforme necessário */
     height: 920px; /* Ajuste conforme necessário */
@@ -50,13 +50,13 @@ main p {
     margin: 20px auto;
 }
 
-.img-wrapper {
+.img-wrapper0, .img-wrapper1, .img-wrapper2, .img-wrapper3 {
     position: relative;
     width: 100%;
     height: 100%;
 }
 
-.img {
+.img, .img-wrapper1, .img-wrapper2, .img-wrapper3 {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -101,154 +101,23 @@ main p {
     font-size: 16px;
 }
 
-
-.container1 {
+.container1, .container2, .container3 {
     position: relative;
-    width: 500px; /* Ajuste o tamanho do container conforme desejado */
-    height: 720px; /* Ajuste o tamanho do container conforme desejado */
+    width: 100%;
+    max-width: 500px;
+    height: auto;
     overflow: hidden;
     margin: 20px auto;
 }
 
-.img-wrapper {
-    position: relative;
-    width: 100%;
-    height: 100%;
-}
 
-.img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
 
-.after {
-    clip-path: inset(0 50% 0 0);
-}
-
-.slider-bar {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    width: 2px; /* Largura da barra de deslize */
-    height: 100%;
-    background: #fff;
-    cursor: ew-resize;
-    z-index: 10; /* Garante que a barra fique acima das imagens */
-}
-
-.handle1 {
+.handle1, .handle2, .handle3 {
     position: absolute;
     top: 40%;
     left: 50%;
-    width: 30px; /* Tamanho do círculo */
-    height: 30px; /* Tamanho do círculo */
-    background: #fdfcfc;
-    border: 2px solid #fff;
-    border-radius: 50%;
-    transform: translate(-50%, -50%);
-    cursor: pointer;
-}
-
-.container2 {
-    position: relative;
-    width: 500px; /* Ajuste o tamanho do container conforme desejado */
-    height: 720px; /* Ajuste o tamanho do container conforme desejado */
-    overflow: hidden;
-    margin: 20px auto;
-}
-
-.img-wrapper {
-    position: relative;
-    width: 100%;
-    height: 100%;
-}
-
-.img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-.after {
-    clip-path: inset(0 50% 0 0);
-}
-
-.slider-bar {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    width: 2px; /* Largura da barra de deslize */
-    height: 100%;
-    background: #fff;
-    cursor: ew-resize;
-    z-index: 10; /* Garante que a barra fique acima das imagens */
-}
-
-.handle2 {
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    width: 30px; /* Tamanho do círculo */
-    height: 30px; /* Tamanho do círculo */
-    background: #fdfcfc;
-    border: 2px solid #fff;
-    border-radius: 50%;
-    transform: translate(-50%, -50%);
-    cursor: pointer;
-}
-
-.container3 {
-    position: relative;
-    width: 500px; /* Ajuste o tamanho do container conforme desejado */
-    height: 720px; /* Ajuste o tamanho do container conforme desejado */
-    overflow: hidden;
-    margin: 20px auto;
-}
-
-.img-wrapper {
-    position: relative;
-    width: 100%;
-    height: 100%;
-}
-
-.img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-.after {
-    clip-path: inset(0 50% 0 0);
-}
-
-.slider-bar {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    width: 2px; /* Largura da barra de deslize */
-    height: 100%;
-    background: #fff;
-    cursor: ew-resize;
-    z-index: 10; /* Garante que a barra fique acima das imagens */
-}
-
-
-.handle3 {
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    width: 30px; /* Tamanho do círculo */
-    height: 30px; /* Tamanho do círculo */
+    width: 30px;
+    height: 30px;
     background: #fdfcfc;
     border: 2px solid #fff;
     border-radius: 50%;
@@ -367,171 +236,59 @@ footer p {
     -webkit-tap-highlight-color: transparent; /* Remove destaque azul em dispositivos móveis */
 }
 
-/* Media Queries */
-@media (max-width: 700px) {
+@media (max-width: 1024px) {
+    header h1 {
+        font-size: 32px;
+    }
+    .info-container {
+        max-width: calc(20% - 20px);
+    }
+    button {
+        padding: 15px 2cm;
+    }
+
+    .container0{
+        width: 390px;
+        height: 500px;
+    }
+
+    .container1{
+        width: 300px;
+        height: 470px;
+    }
+
+    .container2{
+        width: 300px;
+        height: 500px;
+    }
+
+    .container3{
+        width: 300px;
+        height: 500px;
+    }
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 28px;
+    }
     main {
         padding: 10px;
     }
+    .info-container {
+        max-width: calc(100% - 20px);
+    }
+    button {
+        padding: 15px 1.5cm;
+    }
+}
 
+@media (max-width: 480px) {
     header h1 {
         font-size: 24px;
     }
-
-    .container{
-        height: auto;
-    }
-
-    .handle {
-        width: 30px;
-        height: 30px;
-    }
-
-    .container1{
-        height: auto;
-    }
-
-    .handle1{
-        width: 30px;
-        height: 30px;
-    }
-
-    .container2{
-        height: auto;
-    }
-
-    .container3{
-        height: auto;
-    }
-
-
-    button {
-        padding: 10px 2cm;
-        font-size: 14px;
-    }
-
-    .product-info {
-        flex-direction: column;
-        align-items: center;
-    }
-
     .info-container {
-        width: 100%;
-        max-width: none;
-        margin-bottom: 20px;
+        padding: 15px;
     }
-}
-
-@media (max-width: 500px) {
-    header h1 {
-        font-size: 18px;
-    }
-
-    button {
-        padding: 8px 1.5cm;
-        font-size: 12px;
-    }
-
-    .product-info {
-        padding: 0 10px;
-    }
-}
-
-/* Estilos para telas menores que 600px */
-@media (max-width: 600px) {
-    header h1 {
-      font-size: 24px;
-    }
-    
-    main {
-      padding: 10px;
-    }
-  
-    .container {
-      width: 100%;
-      height: auto;
-    }
-  
-    .img-wrapper, .img {
-      width: 100%;
-      height: auto;
-    }
-  
-  /* Outras media queries para ajustar o layout conforme necessário */
-
-  @media screen and (max-width: 768px){
-    .container{
-        display: block;
-    }
-
-    .container1{
-        display: block;
-
-        .img-wrapper {
-            position: relative;
-            width: 50vw;
-            height: auto;
-            max-width: 100%;
-        }
-        
-        .img {
-            width: 100%;
-            height:100%;
-            object-fit: cover;
-            position: absolute;
-            top: 0;
-            left: 0;
-        }
-        
-        .after {
-            clip-path: inset(0 50% 0 0);
-        }
-        
-        .slider-bar {
-            position: absolute;
-            top: 0;
-            left: 50%;
-            width: 2px; /* Largura da barra de deslize */
-            height: 100%;
-            background: #fff;
-            cursor: ew-resize;
-            z-index: 10; /* Garante que a barra fique acima das imagens */
-        }
-        
-        .handle1 {
-            position: absolute;
-            top: 40%;
-            left: 50%;
-            width: 30px; /* Tamanho do círculo */
-            height: 30px; /* Tamanho do círculo */
-            background: #fdfcfc;
-            border: 2px solid #fff;
-            border-radius: 50%;
-            transform: translate(-50%, -50%);
-            cursor: pointer;
-        }
-    }
-
-    .container2{
-        display: block;
-    }
-
-    .container3{
-        display: block;
-    }
-
-    .product-info {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .info-container {
-        width: 100%;
-        max-width: none;
-        margin-bottom: 20px;
-    }
-    
-
-
-  }
-}
+    .handle, .handle1, .handle2, .handle3 {
+        width: 40px;
