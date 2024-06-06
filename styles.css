@@ -368,7 +368,7 @@ footer p {
 }
 
 /* Media Queries */
-@media (max-width: 800px) {
+@media (max-width: 700px) {
     main {
         padding: 10px;
     }
@@ -473,14 +473,14 @@ footer p {
 
         .img-wrapper {
             position: relative;
-            width: 100%;
+            width: 50vw;
             height: auto;
             max-width: 100%;
         }
         
         .img {
-            width: 50%;
-            height:50%;
+            width: 100%;
+            height:100%;
             object-fit: cover;
             position: absolute;
             top: 0;
