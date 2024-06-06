@@ -38,6 +38,3 @@ handles.forEach((handle) => {
 
 window.addEventListener('mouseup', stopDrag);
 window.addEventListener('mousemove', onDrag);
-
-
-
