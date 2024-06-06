@@ -456,11 +456,6 @@ footer p {
       height: auto;
     }
   
-    .slider-bar {
-      display: none; /* Ocultar a barra de deslize em telas menores */
-    }
-  }
-  
   /* Outras media queries para ajustar o layout conforme necessário */
 
   @media screen and (max-width: 768px){
@@ -539,7 +534,4 @@ footer p {
 
 
   }
-
-  
-    
-  
+}
