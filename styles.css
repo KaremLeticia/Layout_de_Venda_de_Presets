@@ -417,3 +417,31 @@ footer p {
         padding: 0 10px;
     }
 }
+
+/* Estilos para telas menores que 600px */
+@media (max-width: 600px) {
+    header h1 {
+      font-size: 24px;
+    }
+    
+    main {
+      padding: 10px;
+    }
+  
+    .container {
+      width: 100%;
+      height: auto;
+    }
+  
+    .img-wrapper, .img {
+      width: 100%;
+      height: auto;
+    }
+  
+    .slider-bar {
+      display: none; /* Ocultar a barra de deslize em telas menores */
+    }
+  }
+  
+  /* Outras media queries para ajustar o layout conforme necessário */
+  
