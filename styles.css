@@ -462,4 +462,73 @@ footer p {
   }
   
   /* Outras media queries para ajustar o layout conforme necessário */
+
+  @media screen and (max-width: 768px){
+    .container{
+        display: block;
+    }
+
+    .container1{
+        display: block;
+
+        .img-wrapper {
+            position: relative;
+            width: 50%;
+            height: 50%;
+        }
+        
+        .img {
+            width: 50%;
+            height: 50%;
+            object-fit: cover;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        
+        .after {
+            clip-path: inset(0 50% 0 0);
+        }
+        
+        .slider-bar {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            width: 2px; /* Largura da barra de deslize */
+            height: 100%;
+            background: #fff;
+            cursor: ew-resize;
+            z-index: 10; /* Garante que a barra fique acima das imagens */
+        }
+        
+        .handle1 {
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            width: 30px; /* Tamanho do círculo */
+            height: 30px; /* Tamanho do círculo */
+            background: #fdfcfc;
+            border: 2px solid #fff;
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+            cursor: pointer;
+        }
+    }
+
+    .container2{
+        display: block;
+    }
+
+    .container3{
+        display: block;
+    }
+
+    
+    
+
+
+  }
+
+  
+    
   
