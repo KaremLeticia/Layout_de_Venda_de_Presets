@@ -473,13 +473,14 @@ footer p {
 
         .img-wrapper {
             position: relative;
-            width: 50%;
-            height: 50%;
+            width: 100%;
+            height: auto;
+            max-width: 100%;
         }
         
         .img {
             width: 50%;
-            height: 50%;
+            height:50%;
             object-fit: cover;
             position: absolute;
             top: 0;
