@@ -377,14 +377,32 @@ footer p {
         font-size: 24px;
     }
 
-    .container, .container1, .container2, .container3 {
+    .container{
         height: auto;
     }
 
-    .handle, .handle1, .handle2, .handle3 {
+    .handle {
         width: 30px;
         height: 30px;
     }
+
+    .container1{
+        height: auto;
+    }
+
+    .handle1{
+        width: 30px;
+        height: 30px;
+    }
+
+    .container2{
+        height: auto;
+    }
+
+    .container3{
+        height: auto;
+    }
+
 
     button {
         padding: 10px 2cm;
