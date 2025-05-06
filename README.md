@@ -1,32 +1,39 @@
-# KSpresets
+# 🎨 Layout de Venda de Presets
 
-## Descrição
+Este projeto apresenta um layout responsivo para uma página de **venda de presets de edição de imagem**, ideal para fotógrafos, influenciadores ou criadores de conteúdo. Desenvolvido com HTML, CSS e JavaScript, o objetivo principal é demonstrar habilidades em **design front-end**, **estruturação semântica** e interatividade básica.
 
-Este projeto é um site que permite aos usuários editar suas fotos usando presets de Lightroom diretamente em seus dispositivos móveis. O site oferece uma coleção de presets que podem transformar suas fotos em segundos, deixando-as mais bonitas e chamativas.
+---
 
-## Funcionalidades
+## 🛠 Tecnologias utilizadas
 
-- Visualização de antes e depois das fotos utilizando uma barra deslizante.
-- Informações sobre diferentes presets disponíveis.
-- Botões de chamada para ação para adquirir os presets.
-- Informações adicionais sobre os benefícios dos presets.
+- **HTML5** – Estrutura da página
+- **CSS3** – Estilização e responsividade
+- **JavaScript** – Comportamentos e interações
 
-## Tecnologias Utilizadas
+---
 
-- HTML
-- CSS
-- JavaScript
+## 📸 Funcionalidades e elementos presentes
 
-## Como Visualizar o Projeto
+- Seção de apresentação visual dos produtos (presets)
+- Layout responsivo e adaptável para dispositivos móveis
+- Botões de chamada para ação (ex: “Comprar”)
+- Organização visual baseada em práticas de e-commerce
 
-Você pode visualizar o projeto online [aqui](https://seu-link-do-vercel.vercel.app) (substitua com o link do seu projeto no Vercel).
+---
 
-### Pré-requisitos
+## 💡 Possibilidades de expansão
 
-Certifique-se de ter o [Git](https://git-scm.com) instalado em sua máquina.
+- Integração com gateway de pagamento (ex: Mercado Pago, Stripe)
+- Implementação de carrinho de compras
+- Página de checkout
+- Cadastro de usuários e login
+- Integração com banco de dados para gerenciamento de produtos
 
-### Instalação
+---
+
+## 🚀 Como visualizar
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/KaremLeticia/Layout_de_Venda_de_Presets.git
+
